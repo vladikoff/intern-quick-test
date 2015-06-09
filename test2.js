@@ -12,7 +12,7 @@ define([
       setTimeout(function () {
         assert.isTrue(true);
         dfd.resolve();
-      }, 2000);
+      }, 5000);
       return dfd;
     },
   });

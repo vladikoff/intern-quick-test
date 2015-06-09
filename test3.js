@@ -5,14 +5,14 @@ define([
   var store;
 
   registerSuite({
-    name: 'test1',
+    name: 'test2',
 
     testTrue: function () {
       var dfd = this.async(10000);
       setTimeout(function () {
         assert.isTrue(true);
         dfd.resolve();
-      }, 5000);
+      }, 2000);
       return dfd;
     },
   });
