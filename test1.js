@@ -8,7 +8,12 @@ define([
     name: 'test1',
 
     testTrue: function () {
-      assert.isTrue(true);
+      var dfd = this.async(5000);
+      setTimeout(function () {
+        assert.isTrue(true);
+        dfd.resolve();
+      }, 2000);
+      return dfd;
     },
   });
 });
