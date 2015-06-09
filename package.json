@@ -1,0 +1,22 @@
+{
+  "name": "intern-quick-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "intern-runner config=intern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladikoff/intern-quick-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladikoff/intern-quick-test/issues"
+  },
+  "homepage": "https://github.com/vladikoff/intern-quick-test",
+  "dependencies": {
+    "intern": "3.0.0-rc.1"
+  }
+}
