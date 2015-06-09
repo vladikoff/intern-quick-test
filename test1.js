@@ -5,7 +5,7 @@ define([
   var store;
 
   registerSuite({
-    name: 'test1',
+    name: 'suite1',
 
     testTrue: function () {
       var dfd = this.async(10000);
