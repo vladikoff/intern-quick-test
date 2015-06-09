@@ -8,7 +8,7 @@ define([
     name: 'suite1',
 
     testTrue: function () {
-      var dfd = this.async(10000);
+      var dfd = this.async(20000);
       setTimeout(function () {
         assert.isTrue(true);
         dfd.resolve();

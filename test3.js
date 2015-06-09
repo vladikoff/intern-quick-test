@@ -8,11 +8,11 @@ define([
     name: 'suite3',
 
     testTrue: function () {
-      var dfd = this.async(10000);
+      var dfd = this.async(20000);
       setTimeout(function () {
         assert.isTrue(true);
         dfd.resolve();
-      }, 2000);
+      }, 10000);
       return dfd;
     },
   });
