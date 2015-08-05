@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "intern-runner config=intern"
+    "test": "intern-runner config=intern.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/vladikoff/intern-quick-test",
   "dependencies": {
-    "intern": "vladikoff/intern#teamcitywtf"
+    "intern": "theintern/intern#c3ead65e576aad4bc3fa7ea7f292493232ca071e"
   }
 }
