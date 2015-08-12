@@ -6,7 +6,9 @@ define({
   functionalSuites: [],
   environments: [ { browserName: 'firefox' }],
   excludeInstrumentation: true,
+  fixSessionCapabilities: false,
   tunnelOptions: {
     pathname: '/'
-  }
+  },
+  maxConcurrency: 1
 });
