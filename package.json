@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "intern-runner config=intern"
+    "test": "intern-runner config=intern.js"
   },
   "repository": {
     "type": "git",

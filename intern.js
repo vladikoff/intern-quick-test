@@ -5,5 +5,8 @@ define({
   reporters: [ 'teamcity' ],
   functionalSuites: [],
   environments: [ { browserName: 'firefox' }],
-  excludeInstrumentation: true
+  excludeInstrumentation: true,
+  tunnelOptions: {
+    pathname: '/'
+  }
 });
