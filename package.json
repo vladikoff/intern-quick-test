@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/vladikoff/intern-quick-test",
   "dependencies": {
-    "intern": "vladikoff/intern#teamcitywtf"
+    "intern": "3.0.0"
   }
 }
