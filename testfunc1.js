@@ -9,7 +9,7 @@ define([
     testTrue: function () {
       return this.remote
         .get(require.toUrl('http://mozilla.org'))
-        .refresh();
+        .execute('location.reload();');
     }
   });
 });
