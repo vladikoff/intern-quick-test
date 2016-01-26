@@ -8,8 +8,22 @@ define([
 
     testTrue: function () {
       return this.remote
-        .get(require.toUrl('http://mozilla.org'))
-        .execute('location.reload();');
+        .get(require.toUrl('https://accounts.firefox.com'))
+        .setFindTimeout(100000)
+
+        .findByCssSelector('form input.email')
+          .click()
+          .type('some@email.com')
+        .end()
+
+        .findByCssSelector('form input.password')
+          .click()
+          .type('password')
+        .end()
+
+        .findByCssSelector('button[type="submit"]')
+          .click()
+        .end();
     }
   });
 });
